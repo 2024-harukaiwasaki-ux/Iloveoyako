@@ -31,8 +31,9 @@
                     fontFamily: {
                         sans: ['"Zen Maru Gothic"', 'sans-serif'],
                     },
+                    /* ↓ 修正: 画像URLをUnsplashの永続的なものに変更しました */
                     backgroundImage: {
-                        'hero-pattern': "linear-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.7)), url('http://googleusercontent.com/image_generation_content/0')",
+                        'hero-pattern': "linear-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.7)), url('https://images.unsplash.com/photo-1544168190-79c17527004f?q=80&w=2800&auto=format&fit=crop')",
                     }
                 }
             }
@@ -45,8 +46,8 @@
             background-color: #FAFAFA;
         }
         .hero-bg {
-            /* 生成された画像を使用 */
-            background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.8)), url('http://googleusercontent.com/image_generation_content/0');
+            /* ↓ 修正: 画像URLをUnsplashの永続的なものに変更しました。これでGitHubでも表示されます */
+            background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.8)), url('https://images.unsplash.com/photo-1544168190-79c17527004f?q=80&w=2800&auto=format&fit=crop');
             background-size: cover;
             background-position: center 30%; /* 顔が見えるように調整 */
         }
